@@ -1,0 +1,78 @@
+# .gitignore for a .NET backend and React/TypeScript/Vite frontend project
+
+# .NET Backend
+## Build results
+[Dd]ebug/
+[Rr]elease/
+[Bb]in/
+[Oo]bj/
+out/
+publish/
+
+## Packages
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+## Rider
+.idea/
+*.iml
+
+## Visual Studio Code
+.vscode/
+
+## Visual Studio
+.vs/
+*.opensdf
+*.sdf
+*.cache
+*.bak
+*.log
+*.docstates
+*.vssscc
+*.vspscc
+*.vsscc
+*.buildscc
+*.pidb
+*.booproj
+*.aspnet*
+*.dbmdl
+*.jfm
+*.pfx
+*.resharper
+*.runsettings
+*.testsettings
+User.config
+*.exe.config
+
+## NuGet
+.nuget/packages/
+.nuget/tmp/
+.nuget/*.sops
+
+# Frontend (React/TypeScript/Vite)
+node_modules/
+dist/
+build/
+.env
+.env.*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.parcel-cache/
+.vite/
+coverage/
+temp/
+tmp/
+logs/
+
+# Database files
+*.db
+*.sqlite
+*.mdf
+*.ldf
+
+# Misc
+.DS_Store
+Thumbs.db
