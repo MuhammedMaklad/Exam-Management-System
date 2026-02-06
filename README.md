@@ -29,9 +29,9 @@ The backend is a .NET Core Minimal API that provides a set of endpoints for mana
 
 ### Getting Started
 
-1.  Navigate to the `backend` directory: `cd backend`
-2.  Restore the dependencies: `dotnet restore`
-3.  Run the application: `dotnet run`
+1. Navigate to the `backend` directory: `cd backend`
+2. Restore the dependencies: `dotnet restore`
+3. Run the application: `dotnet run`
 
 The API will be running at `http://localhost:5000`.
 
@@ -55,9 +55,9 @@ The frontend is a React application that provides a user interface for setting u
 
 ### Getting Started
 
-1.  Navigate to the `frontend` directory: `cd frontend`
-2.  Install the dependencies: `npm install`
-3.  Run the application: `npm run dev`
+1. Navigate to the `frontend` directory: `cd frontend`
+2. Install the dependencies: `npm install`
+3. Run the application: `npm run dev`
 
 The application will be running at `http://localhost:5173`.
 
@@ -76,6 +76,7 @@ The `db scripts` directory contains all the necessary SQL scripts to set up the 
 - `dummy.sql`: Dummy data for testing.
 
 To set up the database, execute the scripts in the following order:
+
 1. `script.sql`
 2. `procedure.sql`
 3. `exam-procedures.sql`
@@ -84,7 +85,10 @@ To set up the database, execute the scripts in the following order:
 6. `course-questions-seed.sql`
 7. `dummy.sql`
 
-
 ## ERD
 
 The `ERD` directory is intended to contain the Entity-Relationship Diagram of the database, which visually represents the database schema and the relationships between tables.
+
+## Reports
+
+This folder contains SQL Server Reporting Services (SSRS) report definition files (.rdl) for the Exam Management System. These reports provide various analytics and insights into the system's data
