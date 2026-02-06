@@ -87,4 +87,4 @@ To set up the database, execute the scripts in the following order:
 
 ## ERD
 
-The `ERD` directory is intended to contain the Entity-Relationship Diagram of the database, which visually represents the database schema and the relationships between tables. This directory is currently empty.
+The `ERD` directory is intended to contain the Entity-Relationship Diagram of the database, which visually represents the database schema and the relationships between tables.
